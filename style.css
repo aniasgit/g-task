@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 36px);
+  grid-template-rows: repeat(6, 36px);
+  margin-top: 36px;
+  border: 1px solid black;
+}
+
+.cell {
+  border: 1px solid black;
+}
