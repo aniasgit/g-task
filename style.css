@@ -14,12 +14,21 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 36px);
-  grid-template-rows: repeat(6, 36px);
+  grid-template-columns: repeat(8, 36px);
   margin-top: 36px;
   border: 1px solid black;
 }
 
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .cell {
+  height: 36px;
   border: 1px solid black;
+}
+
+.fill {
+  background-color: aquamarine;
 }
