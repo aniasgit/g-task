@@ -78,4 +78,3 @@ const getFile = (event) => {
 createGrid();
 
 audioInput.addEventListener("change", (event) => getFile(event));
-// audioPlayer.addEventListener("play", initializeEqualizer);
